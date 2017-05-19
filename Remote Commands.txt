@@ -1,0 +1,1 @@
+Invoke-Command -ComputerName Computer1,Computer3, -Command {put your command here}
