@@ -1,0 +1,1 @@
+﻿get-aduser -f * -pr lastlogondate|sort -property lastlogondate|ft samaccountname,lastlogondate -auto

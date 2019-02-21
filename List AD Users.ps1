@@ -1,0 +1,1 @@
+﻿Get-ADUser -Filter * | Select-Object Name, SamAccountName, UserPrincipalName | WhereObject UserPrincipalName -ne $null | ConverTo-Html | Out-File “$hr\ad-employees.html
